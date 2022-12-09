@@ -1,7 +1,7 @@
 import pygame
 
 
-class Hunter:
+class HunterL:
     """A class to manage the hunter"""
 
     def __init__(self, ai_game):
@@ -10,7 +10,7 @@ class Hunter:
         self.screen_rect = ai_game.screen.get_rect()
 
         # Load the hunter image and get it to rect.
-        self.image = pygame.image.load('images/hunter.png')
+        self.image = pygame.image.load('images/hunterL.png')
         self.rect = self.image.get_rect()
         self.rect = self.image.get_rect(center=self.rect.center)
 

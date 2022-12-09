@@ -1,6 +1,6 @@
 import pygame
 
-class Background:
+class Background(pygame.sprite.Sprite):
     """A class to manage the hunter"""
 
     def __init__(self, ai_game):
