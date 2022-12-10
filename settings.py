@@ -46,6 +46,17 @@ class Settings:
 
         self.initialize_dynamic_settings()
 
+        # main menu
+        self.black = (0, 0, 0)
+        self.white = (255, 255, 255)
+        self.red = (200, 0, 0)
+        self.green = (0, 200, 0)
+        self.orange = (255, 127, 0)
+        self.grey = (50, 50, 50)
+        self.bright_red = (255, 0, 0)
+        self.bright_green = (0, 255, 0)
+        self.bright_orange = (255, 215, 0)
+
     def initialize_dynamic_settings(self):
         self.hunter_speed = 1.5
         self.bullet_speed = 3.0

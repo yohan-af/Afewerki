@@ -70,7 +70,6 @@ class FinalProject:
         pygame.mixer.music.play(-1)
 
 
-
     def run_game(self):
         """Start the main loop for the game."""
         while True:
@@ -141,7 +140,7 @@ class FinalProject:
             self.settings.increase_speed()
             self.hunter.center_hunter()
 
-            pygame.mouse.set_visible(False)
+            # pygame.mouse.set_visible(False)
 
     def _check_keydown_events(self, event):
         """Respond to keypresses."""
